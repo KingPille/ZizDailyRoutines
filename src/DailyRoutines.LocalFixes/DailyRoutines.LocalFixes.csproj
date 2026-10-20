@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>DailyRoutines.LocalFixes</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net10.0-windows</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="DailyRoutines.LocalData.HuntingLog.json" />
+    <None Remove="DailyRoutines.LocalData.MarksFinder.json" />
+    <None Remove="DailyRoutines.LocalData.EnglishDutyGuides.json" />
+    <EmbeddedResource Include="DailyRoutines.LocalData.HuntingLog.json" LogicalName="DailyRoutines.LocalData.HuntingLog.json" />
+    <EmbeddedResource Include="DailyRoutines.LocalData.MarksFinder.json" LogicalName="DailyRoutines.LocalData.MarksFinder.json" />
+    <EmbeddedResource Include="DailyRoutines.LocalData.EnglishDutyGuides.json" LogicalName="DailyRoutines.LocalData.EnglishDutyGuides.json" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

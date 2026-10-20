@@ -1,0 +1,18 @@
+using System.Collections.Generic;
+using System.Numerics;
+using OmenTools.TerritoryTransport.Abstractions;
+
+namespace OmenTools.TerritoryTransport;
+
+public sealed class ChurningMistsToDravanianForelands : EventSimpleYesTransportBase
+{
+	public override string DisplayName => "翻云雾海 → 龙堡参天高地";
+
+	public override uint SourceZone => 400u;
+
+	public override IReadOnlyList<uint> TargetZones => new _003C_003Ez__ReadOnlySingleElementList<uint>(398u);
+
+	public override Vector3 EventPosition => new Vector3(198f, -68.6f, 706.6f);
+
+	protected override uint EventID => 131200u;
+}

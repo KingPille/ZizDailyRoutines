@@ -1,0 +1,24 @@
+using System;
+using Lumina.Excel;
+using Lumina.Text.ReadOnly;
+
+namespace OmenTools.Info.Lumina.ExtraSheets;
+
+[Sheet("custom/001/CmnDefHousingGardeningPlant_00151")]
+public readonly struct HousingGardeningPlant(ExcelPage page, uint offset, uint row) : IExcelRow<HousingGardeningPlant>
+{
+	public ExcelPage ExcelPage => page;
+
+	public uint RowOffset => offset;
+
+	public uint RowId => row;
+
+	public ReadOnlySeString Identifier => page.ReadString((UIntPtr)offset, (UIntPtr)offset);
+
+	public ReadOnlySeString Text => page.ReadString((UIntPtr)(offset + 4), (UIntPtr)offset);
+
+	static HousingGardeningPlant IExcelRow<HousingGardeningPlant>.Create(ExcelPage page, uint offset, uint row)
+	{
+		return new HousingGardeningPlant(page, offset, row);
+	}
+}

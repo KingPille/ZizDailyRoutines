@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>DailyRoutines.AnimationLockOptions</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net10.0-windows</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Lumina.Excel" />
+    <Reference Include="DailyRoutines.Common">
+      <HintPath>..\..\lib\DailyRoutines.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Dalamud" />
+    <Reference Include="FFXIVClientStructs" />
+    <Reference Include="Lumina" />
+    <Reference Include="Dalamud.Bindings.ImGui" />
+    <Reference Include="OmenTools">
+      <HintPath>..\..\lib\OmenTools.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

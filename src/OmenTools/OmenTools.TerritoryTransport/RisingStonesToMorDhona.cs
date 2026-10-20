@@ -1,0 +1,18 @@
+using System.Collections.Generic;
+using System.Numerics;
+using OmenTools.TerritoryTransport.Abstractions;
+
+namespace OmenTools.TerritoryTransport;
+
+public sealed class RisingStonesToMorDhona : EventSimpleYesTransportBase
+{
+	public override string DisplayName => "石之家 → 摩杜纳";
+
+	public override uint SourceZone => 351u;
+
+	public override IReadOnlyList<uint> TargetZones => new _003C_003Ez__ReadOnlySingleElementList<uint>(156u);
+
+	public override Vector3 EventPosition => new Vector3(0.2f, 2f, 24.9f);
+
+	protected override uint EventID => 131145u;
+}

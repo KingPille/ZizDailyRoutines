@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>DailyRoutines.ModulesPublic</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="OmenTools">
+      <HintPath>..\..\lib\OmenTools.dll</HintPath>
+    </Reference>
+    <Reference Include="DailyRoutines">
+      <HintPath>..\..\lib\DailyRoutines.dll</HintPath>
+    </Reference>
+    <Reference Include="DailyRoutines.Common">
+      <HintPath>..\..\lib\DailyRoutines.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Dalamud" />
+    <Reference Include="Dalamud.Bindings.ImGui" />
+    <Reference Include="Lumina.Excel" />
+    <Reference Include="Lumina" />
+    <Reference Include="FFXIVClientStructs" />
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="KamiToolKit">
+      <HintPath>..\..\lib\KamiToolKit.dll</HintPath>
+    </Reference>
+    <Reference Include="InteropGenerator.Runtime" />
+    <Reference Include="OmenTools.KamiToolKit">
+      <HintPath>..\..\lib\OmenTools.KamiToolKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Dalamud.Bindings.ImPlot" />
+    <Reference Include="TinyPinyin">
+      <HintPath>..\..\lib\TinyPinyin.dll</HintPath>
+    </Reference>
+    <Reference Include="TimeAgo.Core">
+      <HintPath>..\..\lib\TimeAgo.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DailyRoutines.LocalFixes">
+      <HintPath>..\..\lib\DailyRoutines.LocalFixes.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

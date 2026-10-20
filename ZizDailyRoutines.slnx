@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="src/DailyRoutines.AnimationLockOptions/DailyRoutines.AnimationLockOptions.csproj" />
+  <Project Path="src/DailyRoutines.Common/DailyRoutines.Common.csproj" />
+  <Project Path="src/DailyRoutines.LocalFixes/DailyRoutines.LocalFixes.csproj" />
+  <Project Path="src/DailyRoutines.Modules/DailyRoutines.Modules.csproj" />
+  <Project Path="src/DailyRoutines.ModulesPublic/DailyRoutines.ModulesPublic.csproj" />
+  <Project Path="src/DailyRoutines/DailyRoutines.csproj" />
+  <Project Path="src/OmenTools.KamiToolKit/OmenTools.KamiToolKit.csproj" />
+  <Project Path="src/OmenTools/OmenTools.csproj" />
+</Solution>

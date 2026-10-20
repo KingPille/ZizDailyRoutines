@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>DailyRoutines.Modules</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="DjsF5xTwLyOVFwoNdsF.orM6lZTEhaDrdZSKHC5" />
+    <EmbeddedResource Include="DjsF5xTwLyOVFwoNdsF.orM6lZTEhaDrdZSKHC5" LogicalName="DjsF5xTwLyOVFwoNdsF.orM6lZTEhaDrdZSKHC5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DailyRoutines.Common">
+      <HintPath>..\..\lib\DailyRoutines.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="OmenTools">
+      <HintPath>..\..\lib\OmenTools.dll</HintPath>
+    </Reference>
+    <Reference Include="Dalamud" />
+    <Reference Include="DailyRoutines">
+      <HintPath>..\..\lib\DailyRoutines.dll</HintPath>
+    </Reference>
+    <Reference Include="Lumina.Excel" />
+    <Reference Include="Dalamud.Bindings.ImGui" />
+    <Reference Include="Lumina" />
+    <Reference Include="FFXIVClientStructs" />
+    <Reference Include="InteropGenerator.Runtime" />
+    <Reference Include="KamiToolKit">
+      <HintPath>..\..\lib\KamiToolKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="DailyRoutines.AnimationLockOptions">
+      <HintPath>..\..\lib\DailyRoutines.AnimationLockOptions.dll</HintPath>
+    </Reference>
+    <Reference Include="DailyRoutines.LocalFixes">
+      <HintPath>..\..\lib\DailyRoutines.LocalFixes.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

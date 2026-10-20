@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>DailyRoutines</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="nGeZ1Yyj4baV0ujsh3.uE4H5XLkZFUZyh9pxQ" />
+    <EmbeddedResource Include="nGeZ1Yyj4baV0ujsh3.uE4H5XLkZFUZyh9pxQ" LogicalName="nGeZ1Yyj4baV0ujsh3.uE4H5XLkZFUZyh9pxQ" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DailyRoutines.Common">
+      <HintPath>..\..\lib\DailyRoutines.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="Dalamud" />
+    <Reference Include="Lumina" />
+    <Reference Include="OmenTools">
+      <HintPath>..\..\lib\OmenTools.dll</HintPath>
+    </Reference>
+    <Reference Include="KamiToolKit">
+      <HintPath>..\..\lib\KamiToolKit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management">
+      <HintPath>..\..\lib\System.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="Otp.NET">
+      <HintPath>..\..\lib\Otp.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="RSASharp">
+      <HintPath>..\..\lib\RSASharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Lumina.Excel" />
+    <Reference Include="FFXIVClientStructs" />
+    <Reference Include="Dalamud.Bindings.ImGui" />
+    <Reference Include="InteropGenerator.Runtime" />
+    <Reference Include="DailyRoutines.AnimationLockOptions">
+      <HintPath>..\..\lib\DailyRoutines.AnimationLockOptions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
